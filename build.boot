@@ -1,9 +1,9 @@
 (def project
-  {:project     'netpyoung/http.status
-   :version     "0.2.0"
+  {:project     'cljpyoung/http.status
+   :version     "0.3.0"
    :description "FIXME: write description"
-   :url         "https://github.com/netpyoung/http.response/FIXME"
-   :scm         {:url "https://github.com/netpyoung/http.response"}
+   :url         "https://github.com/netpyoung/cljpyoung.http.response"
+   :scm         {:url "https://github.com/netpyoung/cljpyoung.http.response"}
    :license     {"Eclipse Public License"
                  "http://www.eclipse.org/legal/epl-v10.html"}})
 

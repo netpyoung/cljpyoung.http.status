@@ -1,7 +1,7 @@
-(ns http.status.core-test
+(ns http.status-test
   (:require [clojure.test :refer :all])
   (:require [clojure.spec.alpha :as s])
-  (:require [http.status.core :as status]))
+  (:require [http.status :as status]))
 
 (deftest for-readme
   (testing "status"
@@ -16,7 +16,7 @@
     (is (status/ok? status/OK)))
 
   (testing "helper"
-    (is (= #'http.status.core/CREATED
+    (is (= #'status/CREATED
            (status/status status/CREATED)))
     (is (= "Created"
            (status/name status/CREATED)))

@@ -1,4 +1,4 @@
-(in-ns 'http.status.core)
+(in-ns 'http.status)
 
 (s/def ::informational-response
   #{
