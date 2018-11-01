@@ -1,6 +1,6 @@
 # http-response
 
-[![Clojars Project](https://img.shields.io/clojars/v/netpyoung/http.status.svg)](https://clojars.org/netpyoung/http.status)
+[![Clojars Project](https://img.shields.io/clojars/v/netpyoung/cljpyoung.http.status.svg)](https://clojars.org/netpyoung/cljpyoung.http.status)
 
 * HTTP Statuses with `cljc`
 * There are some other librarys. But I just want to focus on http status itself.
@@ -8,10 +8,10 @@
 ## Usage
 
 ``` clojure
-(ns http.status-test
+(ns cljpyoung.http.status-test
   (:require [clojure.test :refer :all])
   (:require [clojure.spec.alpha :as s])
-  (:require [http.status :as status]))
+  (:require [cljpyoung.http.status :as status]))
 
 (deftest for-readme
   (testing "status"

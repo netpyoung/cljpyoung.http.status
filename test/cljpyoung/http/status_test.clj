@@ -1,7 +1,7 @@
-(ns http.status-test
+(ns cljpyoung.http.status-test
   (:require [clojure.test :refer :all])
   (:require [clojure.spec.alpha :as s])
-  (:require [http.status :as status]))
+  (:require [cljpyoung.http.status :as status]))
 
 (deftest for-readme
   (testing "status"

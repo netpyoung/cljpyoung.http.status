@@ -1,4 +1,4 @@
-(in-ns 'http.status)
+(in-ns 'cljpyoung.http.status)
 
 
 (defn informational?

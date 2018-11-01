@@ -1,5 +1,5 @@
 (def project
-  {:project     'cljpyoung/http.status
+  {:project     'netpyoung/cljpyoung.http.status
    :version     "0.3.0"
    :description "FIXME: write description"
    :url         "https://github.com/netpyoung/cljpyoung.http.response"

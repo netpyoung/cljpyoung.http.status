@@ -1,4 +1,4 @@
-(in-ns 'http.status)
+(in-ns 'cljpyoung.http.status)
 ;; http.status :as status
 ;; ref: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
