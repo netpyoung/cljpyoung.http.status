@@ -2,8 +2,8 @@
   {:project     'netpyoung/cljpyoung.http.status
    :version     "0.3.0"
    :description "FIXME: write description"
-   :url         "https://github.com/netpyoung/cljpyoung.http.response"
-   :scm         {:url "https://github.com/netpyoung/cljpyoung.http.response"}
+   :url         "https://github.com/netpyoung/cljpyoung.http.status"
+   :scm         {:url "https://github.com/netpyoung/cljpyoung.http.status"}
    :license     {"Eclipse Public License"
                  "http://www.eclipse.org/legal/epl-v10.html"}})
 
